@@ -1,0 +1,43 @@
+h1{text-align: center;
+    color: orange;
+    font-size: -webkit-xxx-large;
+    font-weight: 900;}
+
+.detail{}
+.detail .menu{
+    display: flex;
+    border: 1px solid black;
+}
+.detail .menu ._1item{
+    font-size: 30px;
+    font-weight: 700;
+    border-right: 1px solid black;
+}
+
+.w-60{
+    text-align: center;
+    width: 100px;
+}
+
+.content{}
+.content ._1job{
+    display: flex;
+}
+.content ._1job .stt{}
+.content ._1job .stt .job_code{}
+
+.btn{cursor: pointer;}
+.w-50{    width: 520px !important;}
+
+/* .t1{
+    width: 135px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    font-size: 20px;
+    font-weight: 900;
+} */
+.them_job{
+    display: flex;
+}

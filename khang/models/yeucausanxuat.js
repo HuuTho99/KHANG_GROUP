@@ -7,6 +7,6 @@ var YeuCauSanXuatSchema = new Schema({
     diaChiGiaoHang: String,
     nguoiNhan: String
 
-},{collection: yeu_cau_san_xuat});
+},{collection: 'yeu_cau_san_xuat'});
 
 module.exports = mongoose.model('yeu_cau_san_xuat', YeuCauSanXuatSchema);

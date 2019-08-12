@@ -13,7 +13,7 @@ var app = express();
 
 // connect mongoose
 
-mongoose.connect('mongodb://localhost/khang_group', {useNewUrlParser: true});
+mongoose.connect('mongodb://localhost:27017/khang_group', {useNewUrlParser: true});
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function() {
