@@ -1,0 +1,51 @@
+*{margin: 0;padding: 0;}
+
+tr {
+    border-bottom: 1px solid #2322223b;
+}
+
+td {
+    padding: 0.5rem 0.5rem;
+}
+
+h2{
+    color: #0b4cc3;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+b{margin-left: 0}
+
+.dear{margin: 2rem 0rem;}
+
+/* body */
+
+.body{}
+caption{caption-side: top;}
+.body table{border: 1px solid black;margin-left: 0;}
+.body table tr{border: 1px solid black;}
+.body table tr td{border: 1px solid black;}
+
+.footer{
+    display: flex;
+}
+.footer .left{
+    position: relative;
+}
+.footer .left img{
+    width: 20rem;
+    margin-left: 1rem;
+}
+.footer .right{
+    margin-left: 17rem;
+}
+
+.vuong_tung{
+    position: absolute;
+    top: 10rem;
+    left: 1rem;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
