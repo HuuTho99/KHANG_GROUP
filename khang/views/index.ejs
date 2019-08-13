@@ -22,9 +22,10 @@
                 <div class="_1item pl-4 w-100">Job của bạn</div>
             </div>
             <div class="content mt-4 w-100">
+                <% if(data) data.map((item, index)=>{%>
                 <div class="_1job">
-                    <div class="stt w-60">1</div>
-                    <div class="job_code w-50 font-weight-bold">3M-2365-T35</div>
+                    <div class="stt w-60"><%= index + 1 %></div>
+                    <div class="job_code w-50 font-weight-bold"><%= item.jobCode %></div>
                     <div class="them btn btn-success mr-3">Thêm báo giá</div>
                     <div class="sua btn btn-warning mr-3">Sửa báo giá</div>
                     <div class="xoa btn btn-danger mr-3">Xóa job</div>
@@ -32,13 +33,10 @@
                 </div>
 
                 <hr>
-                
-                <form action="#" method="post" class="them_job">
-
-                    <input type="text" placeholder="Nhập job code của bạn..." class="w-25 mr-4">
-                    <div class="btn btn-success t1">Thêm JOB</div>
-
-
+                <% })%>
+                <form action="/them-job" method="post" class="them_job">
+                    <input name="jobCode" type="text" placeholder="Nhập job code của bạn..." class="w-25 mr-4">
+                    <input class="btn btn-success t1" type="submit" value="Thêm JOB">
                 </form>
 
             </div>
